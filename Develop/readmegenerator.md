@@ -1,40 +1,40 @@
 
-  # readme generator
+  # ReadMeGenerator
 
 
   ## table of contents
   [App Description](#app-description)
+
   [Installation](#installation)
+
   [Usage](#usage)
+
   [Licence](#license)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+  
   [Questions](#questions)
 
 ## App Description 
-This project allows you to create readmes easily
+This project allows the user to create a readme file very easily
 
 ## Installation
-pull this file and do an npm , then run node index.js and you'll get prompts
+Simply do a gitclone of my repo and then follow it with an npm i
 
 ## Usage
-run node index.js to get prompts
+after doing the npm i, simply run a node index.js
 
 ## License
-This ReadMe is covered under the following license: none
+This ReadMe is covered under the following license: None
 
 ## Contributing
-download the code and have fun
+As you please, this project is open to anyone to contribute
 
 ## Tests
-I don't have any, just have fun with the code
+Simply download the code and test as you'd like, no restrictions
 
 ## Questions
-For questions, you can contact me either at my github [here] (https://github.com/DannyRoubin) or you can reach me by email at dannyroubin1@gmail.com 
+For questions, you can contact me either at my github https://github.com/DannyRoubin or you can reach me by email at dannyroubin1@gmail.com 
 
-
-![A screenshot of the app.](./assets/images/AppScreenshot.jpg)
-
-## Link to the App
-https://dannyroubin.github.io/Homework5_WorkDayScheduler/
-  

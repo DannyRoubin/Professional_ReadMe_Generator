@@ -27,9 +27,10 @@ inquirer
       message: "How do you use your app?",
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
       message: "What is the licensing for the project?",
+      choices: ['Apache', 'MIT', 'GPL', 'None']
     },
     {
       type: "input",
@@ -68,11 +69,17 @@ const generateMarkdown = function (answers) {
 
   ## table of contents
   [App Description](#app-description)
+
   [Installation](#installation)
+
   [Usage](#usage)
+
   [Licence](#license)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+  
   [Questions](#questions)
 
 ## App Description 
@@ -96,31 +103,8 @@ ${answers.test}
 ## Questions
 For questions, you can contact me either at my github ${answers.github} or you can reach me by email at ${answers.email} 
 
-
-![A screenshot of the app.](./assets/images/AppScreenshot.jpg)
-
-## Link to the App
-https://dannyroubin.github.io/Homework5_WorkDayScheduler/
   `;
 
   return md;
 };
 
-
-
-
-
-
-
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
